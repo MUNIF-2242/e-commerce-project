@@ -1,15 +1,15 @@
-import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-import StackNavigator from "./navigator/StackNavigator";
+import React from "react";
 
-export default function App() {
+const LoginScreen = () => {
   return (
-    <>
-      {/* <StatusBar style="auto" /> */}
-      <StackNavigator />
-    </>
+    <View style={styles.container}>
+      <Text>LoginScreen</Text>
+    </View>
   );
-}
+};
+
+export default LoginScreen;
 
 const styles = StyleSheet.create({
   container: {
